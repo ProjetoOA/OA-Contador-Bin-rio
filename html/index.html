@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OA</title>
     <link rel="stylesheet" href="../css/estilopaginas.css">
+    <link rel="shortcut icon" href="../imagens/favicon/nfc-magnifying-glass_9784482.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body>
+<body onresize="tamanhoTelaAtualizou()">
     <header>
         <h1>Contador Binário</h1>
-        <nav>
+
+        <nav id="menu">
             <ul>
-                <li ><a href="#introducao">Introdução</a></li>
+                <li><a href="#introducao">Introdução</a></li>
                 <li><a href="#materiais">Materiais</a></li>
                 <li><a href="#montagem">Montagem</a></li>
                 <li><a href="#documentos">Documentos</a></li>
@@ -23,9 +27,50 @@
     </header>
 
     <main>
-        <section id="introducao">
-            <h2 class="titulos">Introdução</h2>
-        </section>
+        <div class="conter-introducao">
+            <section id="introducao">
+                <h2 class="introducao-h2">Introdução</h2>
+                <p class="introducao-p1">Este site tem como objetivo desenvolver a montagem de um contador
+                    binário utilizando materiais comuns, como inspiração o canal <span
+                        style="color: rgba(37, 68, 231, 1);"><a
+                            href="https://www.youtube.com/channel/UCKHhA5hN2UohhFDfNXB_cvQ" target="_blank">manual do
+                            mundo</a></span>
+                    com o video <span style="color: rgba(37, 68, 231, 1);"><a href="#">contador binário</a></span>.
+                    Todas as referências que foram utilizadas se encontram no final da página.</p>
+                <h3>Motivação</h3>
+                <p>O resultado final da montagem do contador será bastante similar ao do Manual do Mundo.
+                    Entretanto, por que replicar o que já foi feito? Na versão original, é utilizado MDF e corte a
+                    laser.
+                    Nosso objetivo é criar o mesmo contador, porém utilizando papelão, cola e papel.
+                    Isso possibilitará que mais pessoas tenham a oportunidade de criar o contador e
+                    compreender a base binária. Portanto, será apenas uma versão mais simples da original,
+                    baseada na versão apresentada e tornando-a mais acessível.</p>
+                <h3>O que é binário?</h3>
+                <p class="antes-lista">Estamos familiarizados desde a infância com o sistema de números na base 10, onde contamos de forma
+                    sequencial: 0, 1, 2, 3... até 9. No entanto, nos computadores, não utilizamos essa contagem
+                    tradicional, mas sim o sistema binário. No sistema binário, contamos utilizando apenas dois dígitos,
+                    que podemos entender como a representação do "sim" ou "não", do "ligado" ou "desligado".
+                    Em resumo, o sistema binário oferece apenas duas opções para escolha, em comparação com as dez
+                    opções do sistema decimal:</p>
+                <ul class="lista-introducao">
+                    <li>Na base 10, dispomos de 10 números: 0, 1, 2, 3... até 9. Com esses 10 dígitos, podemos
+                        representar qualquer outro número na base 10.</li> <br>
+                    <li>Já na base 2, temos apenas duas possibilidades: 0 e 1. Utilizando esses dois números, é possível
+                        representar qualquer outro número na base 2,como? veremos</li>
+                </ul>
+                <p class="depois-lista">
+                    O sistema binário é utilizado em computadores principalmente por conta do hardware(Parte física do
+                    computador), pois o sistema binário pode ser visto como “ligado” e “desligado”, possibilitando
+                    transformar numeros em binário em voltagem, uma determinada voltagem(5 volts por exemplo) como
+                    ligado e
+                    0 volts para desligado, em resumo é a possibilidade do hardware em transformar números em “ligado” e
+                    “desligado”
+                </p>
+
+
+                <h3>Como converter de decimal para binário?</h3>
+            </section>
+        </div>
 
         <section id="materiais">
             <h2 class="titulos">Materiais</h2>
@@ -50,6 +95,9 @@
             <h3>Referências</h3>
         </div>
     </footer>
+
+
 </body>
+
 
 </html>

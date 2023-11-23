@@ -36,22 +36,71 @@ header>nav {
 
 }
 
-ul>li {
+header>nav>ul>li {
     background-color: rgba(25, 21, 209, 1);
     display: inline-block;
     width: 110px;
     height: 30px;
     border-radius: 15px;
     text-align: center;
-    line-height: 30px; 
+    line-height: 30px;
     margin-bottom: 10px;
-    margin-left:5px ;
+    margin-left: 5px;
     margin-right: 5px;
 }
 
-ul>li>a {
-
+header>nav>ul>li>a {
     text-decoration: none;
     color: white;
     display: block;
+}
+a{
+    text-decoration: none;
+}
+
+ul>li>a:hover {
+    background-color: rgba(52, 79, 222, 1);
+}
+.conter-introducao{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+   
+}
+#introducao{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+.introducao-h2{
+    color: rgba(37, 68, 231, 1);
+    text-align: center;
+    margin-top: 20px;
+}
+.introducao-p1{
+    padding: 20px;
+    
+}
+p{
+    font-size: 18px;
+    padding: 20px;
+}
+h3{
+    padding-left: 15px;
+}
+.antes-lista{
+    padding-bottom: 10px;
+}
+.depois-lista{
+    padding-top: 10px;
+}
+.lista-introducao{
+    padding-left: 75px;
+    padding-right: 20px;
+}
+.titulos{
+    color: rgba(37, 68, 231, 1);
 }
