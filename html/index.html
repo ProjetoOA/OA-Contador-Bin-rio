@@ -11,7 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body onresize="tamanhoTelaAtualizou()">
+<body >
     <header>
         <h1>Contador Binário</h1>
 
@@ -27,15 +27,16 @@
     </header>
 
     <main>
-        <div class="conter-introducao">
+        <div class="conteiner-secoes">
             <section id="introducao">
-                <h2 class="introducao-h2">Introdução</h2>
+                <h2 class="titulos">Introdução</h2>
                 <p class="introducao-p1">Este site tem como objetivo desenvolver a montagem de um contador
                     binário utilizando materiais comuns, como inspiração o canal <span
                         style="color: rgba(37, 68, 231, 1);"><a
                             href="https://www.youtube.com/channel/UCKHhA5hN2UohhFDfNXB_cvQ" target="_blank">manual do
                             mundo</a></span>
-                    com o video <span style="color: rgba(37, 68, 231, 1);"><a href="#">contador binário</a></span>.
+                    com o video <span ><a style="color: rgba(37, 68, 231, 1);"
+                            href="https://www.youtube.com/watch?v=YgSjnLXM2Ts" target="_blank">contador binário</a></span>.
                     Todas as referências que foram utilizadas se encontram no final da página.</p>
                 <h3>Motivação</h3>
                 <p>O resultado final da montagem do contador será bastante similar ao do Manual do Mundo.
@@ -46,7 +47,8 @@
                     compreender a base binária. Portanto, será apenas uma versão mais simples da original,
                     baseada na versão apresentada e tornando-a mais acessível.</p>
                 <h3>O que é binário?</h3>
-                <p class="antes-lista">Estamos familiarizados desde a infância com o sistema de números na base 10, onde contamos de forma
+                <p class="antes-lista">Estamos familiarizados desde a infância com o sistema de números na base 10, onde
+                    contamos de forma
                     sequencial: 0, 1, 2, 3... até 9. No entanto, nos computadores, não utilizamos essa contagem
                     tradicional, mas sim o sistema binário. No sistema binário, contamos utilizando apenas dois dígitos,
                     que podemos entender como a representação do "sim" ou "não", do "ligado" ou "desligado".
@@ -72,9 +74,19 @@
             </section>
         </div>
 
-        <section id="materiais">
-            <h2 class="titulos">Materiais</h2>
-        </section>
+        <div class="conteiner-secoes">
+            <section id="materiais">
+                <h2 class="titulos">Materiais</h2>
+                <p>Para conseguir construir o contador será necessário utilizar os seguintes materiais</p>
+                <ul>
+                    <li>Papel (Folha A4)</li>
+                    <li>Cola</li>
+                    <li>Papelão</li>
+                    <li>Tesoura</li>
+                    <li>Tubo de caneta</li>
+                </ul>
+            </section>
+        </div>
 
         <section id="montagem">
             <h2 class="titulos">Montagem</h2>
@@ -84,20 +96,16 @@
             <h2 class="titulos">Documentos</h2>
         </section>
 
-        <section id="referencias">
-            <h2 class="titulos">Referências</h2>
-        </section>
+        <div id="container"> <a id="link-Voltar" href="#">▲</a></div>
 
     </main>
 
     <footer>
         <div>
-            <h3>Referências</h3>
+            <h2 class="titulos">Referências</h2>
         </div>
     </footer>
 
-
 </body>
-
-
+<script src="../js/scrollBar.js"></script>
 </html>

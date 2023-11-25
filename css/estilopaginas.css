@@ -8,6 +8,9 @@
 body {
     font-family: 'Fira Sans', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     background-color: rgba(52, 79, 222, 1);
@@ -54,20 +57,26 @@ header>nav>ul>li>a {
     color: white;
     display: block;
 }
-a{
+
+a {
     text-decoration: none;
+}
+ul>li{
+    font-size: 18px;
 }
 
 ul>li>a:hover {
     background-color: rgba(52, 79, 222, 1);
 }
-.conter-introducao{
-    width: 100%; 
+
+.conteiner-secoes {
+    width: 100%;
     display: flex;
     justify-content: center;
-   
+
 }
-#introducao{
+
+#introducao,#materiais {
     margin-top: 30px;
     margin-bottom: 20px;
     width: 80vw;
@@ -75,32 +84,75 @@ ul>li>a:hover {
     border-radius: 15px;
 
 }
-.introducao-h2{
+
+.titulos {
     color: rgba(37, 68, 231, 1);
     text-align: center;
     margin-top: 20px;
 }
-.introducao-p1{
+
+.introducao-p1 {
     padding: 20px;
-    
+
 }
-p{
+
+p {
     font-size: 18px;
     padding: 20px;
 }
-h3{
+
+h3 {
     padding-left: 15px;
 }
-.antes-lista{
+
+
+.antes-lista {
     padding-bottom: 10px;
 }
-.depois-lista{
+
+.depois-lista {
     padding-top: 10px;
 }
-.lista-introducao{
-    padding-left: 75px;
+
+.lista-introducao {
+    padding-left: 60px;
     padding-right: 20px;
 }
-.titulos{
+
+.titulos {
     color: rgba(37, 68, 231, 1);
+}
+
+#container {
+    
+    width: 55px;
+    height: 55px;
+    background-color: rgb(22, 22, 197);
+    border-radius: 30px;
+    cursor: pointer;
+    position: fixed;
+    right: 18px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+#link-Voltar {
+    display: none;
+    content: '▲';
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding:9px 12px 9px 12px;
+
+}
+#materiais>ul>li{
+    margin-left: 80px;
+    padding: 5px;
+}
+#materiais>ul{
+    padding-bottom: 20px;
 }
