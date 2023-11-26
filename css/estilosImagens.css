@@ -1,58 +1,59 @@
+#montagem {
+  position: relative;
+}
+
 .conteiner-conjunto1 {
-    width: 350px;
-    height: 286px;
-    margin: auto;
+  width: 350px;
+  height: 286px;
+  margin: auto;
+  display: flex;
+
+
 }
 
 .slide1 {
-    display: none;
-    width: 100%;
-    height: 80%;
+  display: none;
+  width: 100%;
+  height: 80%;
 
 }
 
-.anterior, .proximo {
-    display: none;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
+.proximo,
+.anterior {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
-  .proximo {
-    display: none;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .anterior:hover, .proximo:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
+.anterior {
+  left: 28%;
+}
 
-  .texto {
-    display: none;
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
+.proximo {
+  right: 28%;
+}
 
-  .posicao {
-    display: none;
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+.texto {
+
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+@media screen and (min-width:400px) and (max-width:900px) {
+
+  .proximo,
+  .anterior {
+    font-size: 30px;
   }
+}

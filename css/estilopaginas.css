@@ -90,6 +90,9 @@ ul>li>a:hover {
     border-radius: 15px;
 
 }
+#montagem{
+    height: 430px;
+}
 
 
 .titulos {
@@ -156,7 +159,6 @@ h3 {
 
 #link-Voltar {
     display: none;
-    content: '▲';
     font-size: 30px;
     text-decoration: none;
     color: white;
