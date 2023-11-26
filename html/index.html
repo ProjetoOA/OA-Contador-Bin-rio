@@ -9,9 +9,10 @@
     <link rel="shortcut icon" href="../imagens/favicon/nfc-magnifying-glass_9784482.png" type="image/x-icon">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../css/estilosImagens.css">
 </head>
 
-<body >
+<body>
     <header>
         <h1>Contador Binário</h1>
 
@@ -35,8 +36,9 @@
                         style="color: rgba(37, 68, 231, 1);"><a
                             href="https://www.youtube.com/channel/UCKHhA5hN2UohhFDfNXB_cvQ" target="_blank">manual do
                             mundo</a></span>
-                    com o video <span ><a style="color: rgba(37, 68, 231, 1);"
-                            href="https://www.youtube.com/watch?v=YgSjnLXM2Ts" target="_blank">contador binário</a></span>.
+                    com o video <span><a style="color: rgba(37, 68, 231, 1);"
+                            href="https://www.youtube.com/watch?v=YgSjnLXM2Ts" target="_blank">contador
+                            binário</a></span>.
                     Todas as referências que foram utilizadas se encontram no final da página.</p>
                 <h3>Motivação</h3>
                 <p>O resultado final da montagem do contador será bastante similar ao do Manual do Mundo.
@@ -88,24 +90,46 @@
             </section>
         </div>
 
-        <section id="montagem">
-            <h2 class="titulos">Montagem</h2>
-        </section>
+        <div class="conteiner-secoes">
+            <section id="montagem">
+                <h2 class="titulo-montagem">Montagem</h2>
+                <div class="conteiner-conjunto1">
 
-        <section id="documentos">
-            <h2 class="titulos">Documentos</h2>
-        </section>
+                    <div class="slide1">
+                        <div class="posicao">1 / N</div>
+                        <img src="../imagens/caixa-lado-marcado-cortar2.jpg" style="width:100%">
+                        <div class="texto">CO que é 1</div>
+                      </div>
+                    
+                      <div class="slide1">
+                        <div class="posicao">2 / N</div>
+                        <img src="../imagens/caixa-lado-marcado-cortar2.jpg" style="width:100%">
+                        <div class="texto">o que é2</div>
+                      </div>
+                      <a class="anterior" onclick="proximaImagem(-1)">&#10094;</a>
+                      <a class="proximo" onclick="proximaImagem(1)">&#10095;</a>
+                </div>
+                
+            </section>
+        </div>
+
+        <div class="conteiner-secoes">
+            <section id="documentos">
+                <h2 class="titulos">Documentos</h2>
+            </section>
+        </div>
 
         <div id="container"> <a id="link-Voltar" href="#">▲</a></div>
-
     </main>
 
     <footer>
         <div>
-            <h2 class="titulos">Referências</h2>
+            <h2 class="titulos" id="referencias">Referências</h2>
         </div>
     </footer>
 
 </body>
 <script src="../js/scrollBar.js"></script>
+<script src="../js/carrossel.js"></script>
+
 </html>

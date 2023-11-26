@@ -3,11 +3,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 body {
     font-family: 'Fira Sans', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -61,7 +63,8 @@ header>nav>ul>li>a {
 a {
     text-decoration: none;
 }
-ul>li{
+
+ul>li {
     font-size: 18px;
 }
 
@@ -76,19 +79,30 @@ ul>li>a:hover {
 
 }
 
-#introducao,#materiais {
+#introducao,
+#materiais,
+#montagem,
+#documentos {
     margin-top: 30px;
     margin-bottom: 20px;
-    width: 80vw;
+    width: 90vw;
     border: 2px solid black;
     border-radius: 15px;
 
 }
 
+
 .titulos {
     color: rgba(37, 68, 231, 1);
     text-align: center;
     margin-top: 20px;
+}
+
+.titulo-montagem {
+    color: rgba(37, 68, 231, 1);
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .introducao-p1 {
@@ -124,7 +138,7 @@ h3 {
 }
 
 #container {
-    
+
     width: 55px;
     height: 55px;
     background-color: rgb(22, 22, 197);
@@ -137,7 +151,7 @@ h3 {
     justify-content: center;
     align-items: center;
     display: none;
-    
+
 }
 
 #link-Voltar {
@@ -146,13 +160,15 @@ h3 {
     font-size: 30px;
     text-decoration: none;
     color: white;
-    padding:9px 12px 9px 12px;
+    padding: 9px 12px 9px 12px;
 
 }
-#materiais>ul>li{
+
+#materiais>ul>li {
     margin-left: 80px;
     padding: 5px;
 }
-#materiais>ul{
+
+#materiais>ul {
     padding-bottom: 20px;
 }
