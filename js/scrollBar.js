@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (a > 0) {
             linkVoltarElements.style.display = "block";
-            containerElement.style.backgroundColor = "rgb(22, 22, 197)";
+            containerElement.style.display = "flex";
         } else {
             linkVoltarElements.style.display = "none";
-            containerElement.style.backgroundColor = "white";
+            containerElement.style.display = "none";
         }
     });
 });
