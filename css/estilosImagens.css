@@ -18,6 +18,12 @@
 
 }
 
+.imagens-carrossel {
+  margin: auto;
+  width: 350px;
+}
+
+
 .proximo,
 .anterior {
   position: absolute;
@@ -55,5 +61,24 @@
   .proximo,
   .anterior {
     font-size: 30px;
+  }
+}
+
+@media screen and (min-width:379px) and (max-width:480px) {
+
+  .imagens-carrossel {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width:200px) and (max-width:379px) {
+
+  .proximo,
+  .anterior {
+    top: 43%;
+  }
+
+  .imagens-carrossel {
+    width: 250px;
   }
 }
