@@ -41,7 +41,7 @@ function mostrarImagens(n, p) {
         slides = document.getElementsByClassName("slide2");
     } else if (p === 2) {
         slides = document.getElementsByClassName("slide3");
-    }else {
+    }else if(p===3) {
         slides = document.getElementsByClassName("slide4");
     }
 
