@@ -102,6 +102,19 @@
   display: none;
 }
 
+#div-binario-decimal{
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  padding-bottom: 10px;
+  
+}
+#imagem-binario-decimal{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
 @media screen and (min-width:200px) and (max-width:900px) {
 
   .proximo,
@@ -142,6 +155,14 @@
   }
   #mensagem-celular{
     display: block;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 470px) {
+  #div-binario-decimal{
+    width: 200px;
+    height: 100px;
+    
   }
 }
 

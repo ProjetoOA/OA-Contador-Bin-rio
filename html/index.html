@@ -30,11 +30,14 @@
     <main>
         <section>
             <div id="video-youTube"><iframe id="iframeId" width="560" height="315"
-                    src="https://www.youtube.com/embed/ECNPyqOM_dM?si=I4sJOULkEHNlPy5S&rel=0" title="YouTube video player"
-                    frameborder="0"
+                    src="https://www.youtube.com/embed/ECNPyqOM_dM?si=I4sJOULkEHNlPy5S&rel=0"
+                    title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe></div>
-                    <p id="mensagem-celular">Veja o contador funcionando <a style="color: rgba(37, 68, 231, 1); text-decoration: none;" href="https://www.youtube.com/embed/ECNPyqOM_dM?si=I4sJOULkEHNlPy5S&rel=0" target="_blank">aqui</a></p>
+            <p id="mensagem-celular">Veja o contador funcionando <a
+                    style="color: rgba(37, 68, 231, 1); text-decoration: none;"
+                    href="https://www.youtube.com/embed/ECNPyqOM_dM?si=I4sJOULkEHNlPy5S&rel=0" target="_blank">aqui</a>
+            </p>
         </section>
         <div class="conteiner-secoes">
             <section id="introducao">
@@ -80,7 +83,19 @@
                 </p>
 
 
-                <h3>Como converter de decimal para binário?</h3>
+                <h3>Como converter de binário para decimal?</h3>
+                <p style="margin: 5px;">Como estamos lidando agora com base binária(2) as operações irão se basear em potência de 2, ou seja,
+                    quando precisarmos converter um número binário em decimal iremos considerar cada número binário como
+                    um campo, onde possui um índice
+                    ,número correspondente a posição do número, começando de 0, a partir da posição do número 0 ou
+                    1.Indentificado o índice basta fazer a seguinte operação: 2 <sup>índice</sup> para cada um dos
+                    índices e multiplicar pelo número em binário do índice correspondente, a multiplicação sempre será
+                    por 0 ou 1, as únicas possibilidades, elevando os números e multiplicando pelo número binário
+                    correspondente basta somar todos que o resultado será o valor correspondente em decimal.
+
+                </p>
+                <div id="div-binario-decimal"><img id="imagem-binario-decimal" src="../imagens/binario-decimal.PNG" alt="De binário para decimal"></div>
+                <p style="text-align: center;">Fonte imagem: <a style="color: rgba(37, 68, 231, 1); text-decoration: none;" target="_blank" href="https://pt.wikihow.com/Converter-de-Decimal-para-Bin%C3%A1rio">wikihow</a></p>
             </section>
         </div>
 
@@ -265,6 +280,10 @@
         <div class="conteiner-secoes">
             <section id="documentos">
                 <h2 class="titulos">Documentos</h2>
+                <p>Link Figma do projeto: <a  style="color: rgba(37, 68, 231, 1); text-decoration: none;" target="_blank" href="https://www.figma.com/file/RWwwiT1LkFsOGq9ZJxOSXt/IAE?type=design&node-id=0-1&mode=design&t=6q9dUCIUWBGXepQ2-0">Figma OA</a></p>
+                <p>Github do projeto: <a style="color: rgba(37, 68, 231, 1); text-decoration: none;" target="_blank" href="https://github.com/ProjetoOA/OA-Contador-Binario">Projeto OA</a></p>
+                <p>Documentação do projeto: <a style="color: rgba(37, 68, 231, 1); text-decoration: none;" target="_blank" href="#">Documentação</a></p>
+                <p>Imagens em nuvem para visualização: <a style="color: rgba(37, 68, 231, 1); text-decoration: none;" target="_blank" href="../imagensOA.txt" >Imagens</a></p>
             </section>
         </div>
 
@@ -274,6 +293,10 @@
     <footer>
         <div>
             <h2 class="titulos" id="referencias">Referências</h2>
+            <p>ALURA. Sistema de Código Binário. S/D. Acesso em 19 de novembro de 2023. Disponívelem: https://www.alura.com.br/artigos/sistema-codigo-binario.</p>
+            <p>WikiHow. Converter de Decimal para Binário. 2023. https://pt.wikihow.com/Converter-de-Decimal-para-Binario. 29/11/2023.</p>
+            <p>CóDIGO, M. do. Sistema Binário. S/D. Acesso em 19 de novembro de 2023. Disponível em: https://www.manualdocodigo.com.br/binario/</p>
+            <p>MUNDO manual do. Sistema binario. S/D. Acesso em 19 de novembro de 2023. Disponívelem: https://www.youtube.com/watch?v=YgSjnLXM2Ts.</p>
         </div>
     </footer>
 </body>
