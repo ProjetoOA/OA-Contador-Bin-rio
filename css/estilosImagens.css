@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.conteiner-conjunto1 {
+.conteiner-conjunto1,.conteiner-conjunto2,.conteiner-conjunto3,.conteiner-conjunto4{
   width: 100%;
   height: 286px;
   margin: auto;
@@ -11,7 +11,7 @@
 
 }
 
-.slide1 {
+.slide1,.slide2,.slide3,.slide4 {
   position: relative;
   margin: auto;
  
@@ -21,6 +21,7 @@
 
 }
 
+
 .imagens-carrossel {
   margin: auto;
   width: 350px;
@@ -29,9 +30,9 @@
 
 
 .proximo,
-.anterior {
+.anterior,.proximo2,.anterior2,.proximo3,.anterior3,.proximo4,.anterior4 {
   position: absolute;
-  top: 50%;
+  top: 18%;
   transform: translateY(-50%);
   cursor: pointer;
   width: auto;
@@ -44,13 +45,29 @@
   user-select: none;
 }
 
-.anterior {
+.anterior,.anterior2,.anterior3,.anterior4  {
   left: 28%;
 }
 
-.proximo {
+.proximo,.proximo2,.proximo3,.proximo4 {
   right: 28%;
 }
+.proximo2,.anterior2{
+  top: 41%;
+}
+.proximo3,.anterior3{
+  top: 64%;
+}
+
+.anterior4{
+  top: 87%;
+  ;
+}
+.proximo4{
+  top: 87%;
+  right: 28%;
+}
+
 
 .texto {
 
@@ -73,13 +90,15 @@
 @media screen and (min-width:200px) and (max-width:900px) {
 
   .proximo,
-  .anterior {
+  .anterior,.proximo2,
+  .anterior2 {
     font-size: 30px;
   }
 }
 
 @media screen and (min-width:379px) and (max-width: 472px) {
   .url-imagens {
+    border: none;
     margin: auto;
     display: block;
     width: 280px;
@@ -90,6 +109,7 @@
 @media screen and (min-width: 200px) and (max-width: 379px) {
   .url-imagens {
     margin: auto;
+    border: none;
     display: block;
     width: 230px;
   }

@@ -91,7 +91,7 @@ ul>li>a:hover {
 
 }
 #montagem{
-    height: 430px;
+    height: 1500px;
 }
 
 
@@ -106,6 +106,12 @@ ul>li>a:hover {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
+}
+.descricao-montagem{
+
+    text-align: center;
+  
+    padding: 10px;
 }
 
 .introducao-p1 {
