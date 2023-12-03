@@ -7,7 +7,7 @@
 - Vitor Mateus Morais Silva
 ## Link do vídeo original: **[Vídeo Original](https://www.youtube.com/watch?v=YgSjnLXM2Ts)**
 ## Link da OA criada: **[OA](https://youtu.be/ECNPyqOM_dM)**
-## Documentação do projeto: **[Documentação](https://youtu.be/ECNPyqOM_dM)**
+## Documentação do projeto: **[Documentação](https://github.com/ProjetoOA/OA-Contador-Binario/blob/main/Documentacao_T5_Binario.pdf)**
 ## Tecnologias utilizadas na criação do site
 - HTML5
 - CSS3
